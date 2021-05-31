@@ -1,0 +1,51 @@
+.main{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/27px var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #43E673;
+    padding: 2.5rem 2.5rem;
+}
+
+/* lhs */
+.lhs{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lhs li{
+    position: relative;
+    padding-left: 4rem;
+}
+
+.lhs li select{
+    padding: 1rem;
+}
+.logo{
+    background-image: url(./Group\ 556.svg);
+    width: 2rem;
+    height: 4rem;
+}
+/* rhs */
+.rhs{
+    display: flex;
+    padding-left: 4rem;
+    cursor: pointer;
+}
+
+.rhs li{
+    position: relative;
+    padding-right: 4rem;
+}
