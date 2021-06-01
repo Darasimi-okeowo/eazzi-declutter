@@ -49,6 +49,10 @@ const top = () => {
         <img src={landingCurve} alt=''/>
         <div class='image'>
           <img src={landingImage} alt=''/>
+          <div className='text'>
+            <h1>Do you know your CLUTTER <br/>is someone's TREASURE?</h1>
+            <p>Buy and sell your preloved and new items at affordable prices.<br/> Make money from decluttering your space. Buy quality for less</p>
+          </div>
         </div>
       </div>
     </div>
