@@ -2,6 +2,7 @@ import React from "react";
 import "./top.css";
 import { CgProfile } from "react-icons/cg";
 import landingCurve from './landingCurve.svg'
+import landingImage from './landingImage.png'
 
 const top = () => {
   return (
@@ -46,6 +47,9 @@ const top = () => {
       </div>
       <div class="body"> 
         <img src={landingCurve} alt=''/>
+        <div class='image'>
+          <img src={landingImage} alt=''/>
+        </div>
       </div>
     </div>
   );
