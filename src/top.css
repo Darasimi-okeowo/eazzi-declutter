@@ -1,4 +1,9 @@
 .main{
+}
+
+.nav{
+    background-color: #43E673;
+    padding: 2.5rem 2.5rem;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/27px var(--unnamed-font-family-poppins);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
@@ -9,15 +14,13 @@
     opacity: 1;
 }
 
-.nav{
+.sides{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    background-color: #43E673;
-    padding: 2.5rem 2.5rem;
+    margin-bottom: 3rem;
 }
-
 /* lhs */
 .lhs{
     display: flex;
@@ -48,4 +51,42 @@
 .rhs li{
     position: relative;
     padding-right: 4rem;
+}
+
+/* input */
+input{
+    padding: 10px;
+    width: 50rem;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 10px;
+    background-color: rgb(232, 240, 254);
+}
+.input select{
+    padding: 10px;
+    width: 15rem;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 10px;
+    margin-right: 6rem;
+    background-color: rgb(232, 240, 254);
+}
+
+button{
+    padding: 10px;
+    width: 15rem;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 10px;
+    background-color: rgb(232, 240, 254);
+}
+
+
+/* section 2 */
+.header{
+    /* position: relative; */
+    /* border: 2px solid black;     */
+    height: 60vh;
+
+
 }
