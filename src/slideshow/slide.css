@@ -1,0 +1,14 @@
+.car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.think{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 10px;
+    height: 308px;
+}
