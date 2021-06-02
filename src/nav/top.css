@@ -44,7 +44,7 @@
     padding: 1rem;
 }
 .logo{
-    background-image: url(./Group\ 556.svg);
+    background-image: url(./logo.jpeg);
     width: 2rem;
     height: 4rem;
 }
@@ -88,36 +88,3 @@ button{
     background-color: rgb(232, 240, 254);
 }
 
-
-/* section 2 */
-.body{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-}
-
-.image{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    bottom: 0;
-    margin: auto;
-    /* border: 2px solid green; */
-}
-.image img{
-    width: 30%;
-    margin-right: 13rem;
-    
-}
-
-.text{
-    /* border: 2px solid red; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 4rem;
-    margin-top: 9rem;
-}

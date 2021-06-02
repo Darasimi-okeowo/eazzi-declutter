@@ -1,10 +1,15 @@
 import React from 'react'
-import Item from "../slideshow/Item";
+import Item from "./Item";
 import Carousel from "react-elastic-carousel";
-import car from './car.png'
-import ps5 from './ps5.png'
-import chair from './chair.png'
-import iphone from './iphone.png'
+import car from './car.jpeg'
+import ps5 from './ps5.jpeg'
+import chair from './chair.jpeg'
+import iphone from './iphone.jpeg'
+import camera from './camera.jpeg'
+import fridge from './fridge.jpeg'
+import pad from './pad.jpeg'
+import shoe from './shoe.jpeg'
+import laptop from './laptop.jpeg'
 import './slide.css'
 
 const breakPoints = [
@@ -23,6 +28,11 @@ const Slide = () => {
                     <Item> <img src={ps5} alt='' className='think'/> </Item>
                     <Item> <img src={chair} alt='' className='think'/> </Item>
                     <Item> <img src={iphone} alt='' className='think'/> </Item>
+                    <Item> <img src={camera} alt='' className='think'/> </Item>
+                    <Item> <img src={fridge} alt='' className='think'/> </Item>
+                    <Item> <img src={laptop} alt='' className='think'/> </Item>
+                    <Item> <img src={pad} alt='' className='think'/> </Item>
+                    <Item> <img src={shoe} alt='' className='think'/> </Item>
                   </Carousel>
                 </div>
               </div>

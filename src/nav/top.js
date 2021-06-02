@@ -1,9 +1,7 @@
 import React from "react";
 import "./top.css";
-import Slide from './slideshow/Slide'
 import { CgProfile } from "react-icons/cg";
-import landingCurve from './landingCurve.svg'
-import landingImage from './landingImage.png'
+
 
 const top = () => {
   return (
@@ -46,20 +44,6 @@ const top = () => {
           <button>Search</button>
         </div>
       </div>
-
-
-      <div class="body"> 
-        <img src={landingCurve} alt=''/>
-        <div class='image'>
-          <img src={landingImage} alt=''/>
-          <div className='text'>
-            <h1>Do you know your <mark style={{color:'blue', backgroundColor:'transparent'}}>CLUTTER</mark> <br/>is someone's <mark style={{color:'#43E673', backgroundColor:'transparent'}}>TREASURE?</mark></h1>
-            <p>Buy and sell your preloved and new items at affordable prices.<br/> Make money from decluttering your space. Buy quality for less</p>
-          </div>
-        </div>
-      </div>
-
-      <Slide/>
     </div>
   );
 };
