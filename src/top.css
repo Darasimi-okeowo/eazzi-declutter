@@ -21,11 +21,18 @@
     list-style: none;
     margin-bottom: 3rem;
 }
+
+#cars{
+    background-color: transparent;
+    border: none;
+}
 /* lhs */
 .lhs{
     display: flex;
     align-items: center;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .lhs li{
