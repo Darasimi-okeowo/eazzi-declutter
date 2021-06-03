@@ -2,7 +2,9 @@ import React from 'react'
 import './App.css'
 import Top from '../src/nav/top'
 import Sect1 from '../src/Sect1/Sect1'
+import Sect2 from '../src/Sect2/Sect2'
 import Slideshow from '../src/slideshow/Slide'
+import Footer from '../src/footer/footer'
 
 const App = () => {
   return (
@@ -10,6 +12,11 @@ const App = () => {
       <Top />
       <Sect1 />
       <Slideshow />
+      <div>
+        <h4 className='sect4'>Buy Fridge</h4>
+      </div>
+      <Sect2 />
+      <Footer />
     </div>
   )
 }

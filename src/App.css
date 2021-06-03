@@ -9,3 +9,19 @@
 body{
   margin: 0;
 }
+
+.sect4{
+  border: 2px solid transparent;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7f6;
+  font: var(--unnamed-font-style-normal) normal medium 18px/27px var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal medium 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #1F1D1D;
+  opacity: 1;
+}

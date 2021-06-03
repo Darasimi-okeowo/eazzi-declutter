@@ -7,7 +7,7 @@ const Sect1 = () => {
     return (
         <div class="body"> 
             <img src={curve} alt=''/>
-            <div class='image'>
+            <div className='image'>
             <img src={image} alt=''/>
             <div className='text'>
                 <h1>Do you know your <mark style={{color:'blue', backgroundColor:'transparent'}}>CLUTTER</mark> <br/>is someone's <mark style={{color:'#43E673', backgroundColor:'transparent'}}>TREASURE?</mark></h1>

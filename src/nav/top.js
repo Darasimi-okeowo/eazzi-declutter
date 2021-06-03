@@ -5,13 +5,13 @@ import { CgProfile } from "react-icons/cg";
 
 const top = () => {
   return (
-    <div class="main">
-      <div class="nav">
-        <div class="sides">
-          <div class="lhs">
-            <li class="logo"></li>
+    <div className="main">
+      <div className="nav">
+        <div className="sides">
+          <div className="lhs">
+            <li className="logo"></li>
             <li>
-              <select class="cars" id="cars">
+              <select className="cars" id="cars">
                 <option value="volvo">Categories</option>
                 <option value="saab">Saab</option>
                 <option value="mercedes">Mercedes</option>
@@ -19,7 +19,7 @@ const top = () => {
               </select>
             </li>
           </div>
-          <div class="rhs">
+          <div className="rhs">
             <li>About</li>
             <li>Contact Us</li>
             <li>Favourites</li>
@@ -35,7 +35,7 @@ const top = () => {
             type="text"
             placeholder="🔍         type your search here"
           ></input>
-          <select class="cars" id="cars">
+          <select className="cars" id="cars">
             <option value="volvo">Categories</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
