@@ -36,7 +36,7 @@ const top = () => {
           type="text"
           placeholder="🔍         type your search here"
         ></input>
-        <select className="car" id="cars">
+        <select className="carss" id="cars">
           <option value="volvo">Categories</option>
           <option value="saab">Saab</option>
           <option value="mercedes">Mercedes</option>
