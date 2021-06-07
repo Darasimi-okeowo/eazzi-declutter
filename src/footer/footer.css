@@ -1,57 +1,116 @@
-.footer{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 1rem;
-    padding: .1rem;
-    background-color: #43E673;
-    list-style: none;
-    padding: 2rem;
+footer{
+    width: 100%;
+    height: auto;
+    padding: 2.5rem ;
+    background: #43E673;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about{
+    /* margin-right: 3rem; */
+    width: 20%;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.about h2{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
 }
 
 .eazi{
     border: 2px solid transparent;
     background-color: white;
-    padding: 2.5rem;
+    padding: .5rem;
     align-items: center;font: var(--unnamed-font-style-normal) normal bold 30px/46px var(--unnamed-font-family-poppins);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-43e673);
-    text-align: left;
+    text-align: center;
+    height: 5rem;
     font: normal normal bold 30px/46px Poppins;
     letter-spacing: 0px;
     color: #43E673;
     opacity: 1;
 }
+
 .tags{
+    /* margin-right: 3rem; */
+    width: 20%;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+.tags h2{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.socials{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.socials h2{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.contact{
+    width: 25%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact h2{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 1rem;
+    grid-gap: .3rem;
     padding: .1rem;
 }
 .grid-items {
-    padding: .2rem;
     text-align: center;
     border: 2px solid #707070;
 }
 
-.socials{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+@media (max-width: 1300px) {
+    footer{
+        padding: 4rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .about h6{
+        margin-bottom: 2rem;
+    }
+    .about, .tags, .socials{
+        margin-right: 0;
+        margin-bottom: 4rem;
+        width: 100%;
+    }
+    .socials h4{
+        margin-bottom: 2rem;
+    }
+    .contact{
+        width: 100%;
+    }
 }
