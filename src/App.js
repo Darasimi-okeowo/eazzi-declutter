@@ -5,11 +5,14 @@ import Sect1 from '../src/Sect1/Sect1'
 import Sect2 from '../src/Sect2/Sect2'
 import Slideshow from '../src/slideshow/Slide'
 import Footer from '../src/footer/footer'
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
   return (
     <div>
-      <Top />
+      <Router>
+        <Top />
+      </Router>
       <Sect1 />
       <Slideshow />
       <div>
